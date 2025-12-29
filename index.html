@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Kian Khayat — Home</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbarInner">
+    <div class="brand">
+      <div class="logo" aria-label="KT logo">KT</div>
+      <div class="brandText">
+        <div class="name">Kian Khayat</div>
+        <div class="meta">Personal site • Portfolio • Articles</div>
+      </div>
+    </div>
+
+    <nav class="navPills" aria-label="Primary">
+      <a href="index.html" aria-current='page'>Home</a>
+      <a href="portfolio.html" >Portfolio</a>
+      <a href="articles.html" >Articles</a>
+      <a href="contact.html" >Contact</a>
+    </nav>
+
+    <div class="actions">
+      <button class="iconBtn" type="button" data-theme-toggle aria-label="Toggle theme">
+        <span data-theme-icon></span>
+      </button>
+      <button class="iconBtn mobileNav" type="button" data-menu-toggle aria-label="Open menu">
+        <span data-menu-icon></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav class="navPills mobileNav hidden" data-mobile-nav aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="articles.html">Articles</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<div class="container">
+
+<div class="card hero">
+  <div class="heroGrid">
+    <div class="avatar" aria-label="Profile photo">
+      <!-- Replace avatar.jpg with your photo (same filename) -->
+      <img src="avatar.jpg" alt="" onerror="this.remove();"/>
+    </div>
+    <div>
+      <h1>Hello — I'm Kian Khayat</h1>
+      <p>Frontend + clean UI. Learning fundamentals, building projects, and writing science notes.</p>
+      <div class="ctaRow">
+        <a class="btn btnPrimary" href="Resume.pdf">
+          <span data-download-icon></span>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card section">
+  <div class="sectionTitle">
+    <h2>Skills</h2>
+    <small>Tap an icon to reveal details</small>
+  </div>
+  <div class="skillsStories" id="skillsStories" role="list">
+    
+<button class="storySkill" type="button" data-skill aria-current="false"
+  data-title="Python" data-pct="70" data-desc="Automation • fundamentals" data-extra="I use Python for automation, small tools, and learning algorithms.">
+  <div class="ring" aria-hidden="true">
+    <svg viewBox="0 0 80 80">
+      <circle class="bg" cx="40" cy="40" r="32"></circle>
+      <circle class="fg" cx="40" cy="40" r="32" style="stroke-dasharray:140.74 60.32"></circle>
+    </svg>
+    <div class="inner" data-skill-icon><img alt="" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M8%207a4%204%200%200%201%204-4h4v6H12a2%202%200%200%200-2%202v2H8V7Z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M16%2017a4%204%200%200%201-4%204H8v-6h4a2%202%200%200%200%202-2v-2h2v6Z%22/%3E%3C/svg%3E"/></div>
+    <div class="pct">70%</div>
+  </div>
+  <div class="label">Python</div>
+</button>
+
+
+<button class="storySkill" type="button" data-skill aria-current="false"
+  data-title="JavaScript" data-pct="75" data-desc="UI • interactions" data-extra="DOM work, small apps, and clean frontend logic.">
+  <div class="ring" aria-hidden="true">
+    <svg viewBox="0 0 80 80">
+      <circle class="bg" cx="40" cy="40" r="32"></circle>
+      <circle class="fg" cx="40" cy="40" r="32" style="stroke-dasharray:150.80 50.27"></circle>
+    </svg>
+    <div class="inner" data-skill-icon><img alt="" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M7%204h10v16H7z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M9%209h6M9%2013h4%22/%3E%3C/svg%3E"/></div>
+    <div class="pct">75%</div>
+  </div>
+  <div class="label">JavaScript</div>
+</button>
+
+
+<button class="storySkill" type="button" data-skill aria-current="false"
+  data-title="HTML/CSS" data-pct="80" data-desc="Responsive • spacing" data-extra="Layout, typography, accessibility, and responsive design.">
+  <div class="ring" aria-hidden="true">
+    <svg viewBox="0 0 80 80">
+      <circle class="bg" cx="40" cy="40" r="32"></circle>
+      <circle class="fg" cx="40" cy="40" r="32" style="stroke-dasharray:160.85 40.21"></circle>
+    </svg>
+    <div class="inner" data-skill-icon><img alt="" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M6%203h12l-1%2018-5%202-5-2-1-18Z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M8%207h8M8%2011h8M8%2015h6%22/%3E%3C/svg%3E"/></div>
+    <div class="pct">80%</div>
+  </div>
+  <div class="label">HTML/CSS</div>
+</button>
+
+
+<button class="storySkill" type="button" data-skill aria-current="false"
+  data-title="Linux" data-pct="65" data-desc="CLI • workflows" data-extra="Daily terminal use, file permissions, and basic server habits.">
+  <div class="ring" aria-hidden="true">
+    <svg viewBox="0 0 80 80">
+      <circle class="bg" cx="40" cy="40" r="32"></circle>
+      <circle class="fg" cx="40" cy="40" r="32" style="stroke-dasharray:130.69 70.37"></circle>
+    </svg>
+    <div class="inner" data-skill-icon><img alt="" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M12%203c3%200%205%203%205%207s-2%207-5%207-5-3-5-7%202-7%205-7Z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M7%2018c1%202%203%203%205%203s4-1%205-3%22/%3E%3C/svg%3E"/></div>
+    <div class="pct">65%</div>
+  </div>
+  <div class="label">Linux</div>
+</button>
+
+
+<button class="storySkill" type="button" data-skill aria-current="false"
+  data-title="WordPress" data-pct="60" data-desc="Themes • content" data-extra="Building and customizing small sites for content and clients.">
+  <div class="ring" aria-hidden="true">
+    <svg viewBox="0 0 80 80">
+      <circle class="bg" cx="40" cy="40" r="32"></circle>
+      <circle class="fg" cx="40" cy="40" r="32" style="stroke-dasharray:120.64 80.42"></circle>
+    </svg>
+    <div class="inner" data-skill-icon><img alt="" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M12%203a9%209%200%201%200%200%2018%209%209%200%200%200%200-18Z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M8%209c0%205%202%208%204%208s4-3%204-8%22/%3E%3C/svg%3E"/></div>
+    <div class="pct">60%</div>
+  </div>
+  <div class="label">WordPress</div>
+</button>
+
+
+<button class="storySkill" type="button" data-skill aria-current="false"
+  data-title="SEO" data-pct="55" data-desc="On-page • basics" data-extra="Titles, structure, speed basics, and content optimization.">
+  <div class="ring" aria-hidden="true">
+    <svg viewBox="0 0 80 80">
+      <circle class="bg" cx="40" cy="40" r="32"></circle>
+      <circle class="fg" cx="40" cy="40" r="32" style="stroke-dasharray:110.58 90.48"></circle>
+    </svg>
+    <div class="inner" data-skill-icon><img alt="" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M11%2011h10v10H11z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M3%2013V3h10%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M3%203l8%208%22/%3E%3C/svg%3E"/></div>
+    <div class="pct">55%</div>
+  </div>
+  <div class="label">SEO</div>
+</button>
+
+
+<button class="storySkill" type="button" data-skill aria-current="false"
+  data-title="German" data-pct="70" data-desc="B1–B2 path" data-extra="I’m actively improving German for study and work.">
+  <div class="ring" aria-hidden="true">
+    <svg viewBox="0 0 80 80">
+      <circle class="bg" cx="40" cy="40" r="32"></circle>
+      <circle class="fg" cx="40" cy="40" r="32" style="stroke-dasharray:140.74 60.32"></circle>
+    </svg>
+    <div class="inner" data-skill-icon><img alt="" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M4%206h16M4%2012h16M4%2018h16%22/%3E%3C/svg%3E"/></div>
+    <div class="pct">70%</div>
+  </div>
+  <div class="label">German</div>
+</button>
+
+
+<button class="storySkill" type="button" data-skill aria-current="false"
+  data-title="English" data-pct="85" data-desc="Reading • writing" data-extra="Comfortable reading technical docs and writing content.">
+  <div class="ring" aria-hidden="true">
+    <svg viewBox="0 0 80 80">
+      <circle class="bg" cx="40" cy="40" r="32"></circle>
+      <circle class="fg" cx="40" cy="40" r="32" style="stroke-dasharray:170.90 30.16"></circle>
+    </svg>
+    <div class="inner" data-skill-icon><img alt="" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M12%2021c4.97%200%209-4.03%209-9s-4.03-9-9-9-9%204.03-9%209%204.03%209%209%209Z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20d%3D%22M3%2012h18%22/%3E%3C/svg%3E"/></div>
+    <div class="pct">85%</div>
+  </div>
+  <div class="label">English</div>
+</button>
+
+  </div>
+
+  <div class="skillDetail hidden" id="skillDetail">
+    <div style="display:flex; gap:12px; align-items:center">
+      <div class="ring" style="width:64px;height:64px;box-shadow:none">
+        <div class="inner" data-sd-icon></div>
+      </div>
+      <div style="min-width:0">
+        <h3 data-sd-title style="margin:0"></h3>
+        <p data-sd-desc style="margin:0; color:var(--muted)"></p>
+      </div>
+    </div>
+    <p data-sd-extra style="margin-top:10px"></p>
+  </div>
+</div>
+
+<div class="card section">
+  <div class="sectionTitle">
+    <h2>Quick links</h2>
+    <small>Just the important stuff</small>
+  </div>
+  <div class="grid2">
+    <div class="tile">
+      <h3>Portfolio</h3>
+      <p>Projects + screenshots + links.</p>
+      <div style="margin-top:10px"><a class="btn" href="portfolio.html">Open portfolio →</a></div>
+    </div>
+    <div class="tile">
+      <h3>Articles</h3>
+      <p>Two long scientific articles with a reader view.</p>
+      <div style="margin-top:10px"><a class="btn" href="articles.html">Read articles →</a></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="container">
+  <div class="card footer">
+    <small>© Kian Khayat.</small>
+    <div class="footIcons" aria-label="Social links">
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><path d="M7 7h10v10H7z"/><path d="M16 3H8a5 5 0 0 0-5 5v8a5 5 0 0 0 5 5h8a5 5 0 0 0 5-5V8a5 5 0 0 0-5-5Z"/><path d="M16.5 7.5h.01"/></svg>
+      </a>
+      <a href="#" aria-label="Telegram">
+        <svg viewBox="0 0 24 24"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7Z"/></svg>
+      </a>
+      <a href="#" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L4 20l1.2-3.3A8.5 8.5 0 1 1 20 11.5Z"/><path d="M8.5 9.5c1.5 3 3 4.5 6 6"/><path d="M14.5 15.5l2-1"/></svg>
+      </a>
+      <a href="#" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24"><path d="M4 9h4v11H4z"/><path d="M6 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/><path d="M10 9h4v2"/><path d="M14 11c1-1 2-2 4-2 3 0 4 2 4 5v6h-4v-5c0-2 0-3-2-3s-2 1-2 3v5h-4z"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
